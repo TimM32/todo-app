@@ -1,0 +1,40 @@
+body {
+    background-color: aquamarine;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 280px;
+    text-align: center;
+}
+
+.todo-header {
+    margin-top: 30px;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    margin-left: 500px;
+    color: crimson;
+}
+
+.form label {
+    margin: 15px;
+}
+
+form input {
+    margin-left: 15px;
+    color:antiquewhite;
+}
+
+.added-item {
+    background-color: rgb(119, 0, 255);
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    width: 320px;
+    
+}
