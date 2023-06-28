@@ -1,7 +1,7 @@
 import { Header } from '@mantine/core';
-import './header.scss'
 
-function HeaderItems(props) {
+
+function Header(props) {
   
   return (
     <Header className="header">
@@ -10,4 +10,4 @@ function HeaderItems(props) {
   );
 }
 
-export default HeaderItems;
+export default Header;
